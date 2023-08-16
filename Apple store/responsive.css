@@ -1,0 +1,182 @@
+@media screen and (max-width:1300px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    .login{
+        position: relative;
+        bottom: 60px;
+        left: 70px;
+
+    }
+
+    header nav ul li{
+        margin-top: 10px;
+    }
+
+    .search{
+        margin-top: 4vh;
+    }
+
+    /* bar */
+
+    .ul{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .ui-course-in-line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .get-upto{
+        height: 8vh;
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .back{
+        height: 88vh;
+        width: 100vw;
+        background-color: black;
+    }
+
+    .white1{
+        height: 90vh;
+        width: 80vw;
+        background-color: aqua;
+    }
+
+    .arcade-airpodsPro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .arcade{
+        width: 97.5vw;
+        height: 90vh;
+    }
+
+    .airpodsPro{
+        width: 97.5vw;
+        height: 90vh;
+        margin-top: 10px;
+    }
+
+    .para1{
+        height: 45vh;
+        width: 60vw;
+    }
+
+    .first-line{
+        height: 25vh;
+        width: 60vw;
+    }
+
+    .all-list{
+        height: 65vh;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    
+    .para1{
+        height: 67vh;
+        width: 60vw;
+    }
+
+    .first-line{
+        height: 35vh;
+        width: 60vw;
+    }
+
+    .last-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    
+    .mob-lap{
+        display: flex;
+        flex-direction: column;
+        margin-left: 140px
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+    .back{
+        height: 88vh;
+        width: 100vw;
+        background-color: black;
+    }
+
+    .white1{
+        height: 90vh;
+        width: 100vw;
+        background-color: white;
+    }
+
+    .mob{
+        height: 90vh;
+        width: 50vw;
+        background-color:white ;
+    }
+
+    .lap{
+        height: 90vh;
+        width: 50vw;
+        background-color:white ;
+    }
+
+    .ipad{
+        height: 90vh;
+        width: 50vw;
+        background-color:aqua ;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    #f-ipad{
+        height: 40vh;
+    }
+
+    .arcade{
+        height: 75vh;
+    }
+
+
+    #airpod-img{
+        height: 40vh;
+    }
+    .airpodsPro{
+        height: 65vh;
+    }
+
+    #iphone14-img{
+        height: 250px;
+    }
+}
+
+
+/* @media screen and (max-width:1200px) {
+    .login{
+        position: relative;
+        bottom: 60px;
+        left: 40px;
+    }
+} */

@@ -1,0 +1,690 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+
+header{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.line{
+    height: 2px;
+    width: 0px;
+    background-color: red;
+    animation: line 1s;
+}
+
+@keyframes line {
+    from{
+        width: 0px;
+    }
+
+    to{
+        width: 100vw;
+    }
+    
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+
+header nav ul li{
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+header nav ul li:hover{
+    font-weight: bold;
+    color: blue;
+}
+
+
+.search{
+    margin-left: 5vw;
+}
+
+.login{
+    margin-left: 55vw;
+}
+
+.login-btn{
+    padding: 3px 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+/* bar*/
+
+.bar{
+    height: 5vh;
+    width: 100%;
+    background-color: gray;
+    /* position: fixed; */
+    position: sticky;
+    top: 1;
+    
+}
+main{
+    /* background-image: url("background.webp"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ul{
+    display: flex;
+    list-style: none;
+}
+
+main div div ul li{
+    margin: 0 23px;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+main div div ul li:hover{
+    font-weight: bold;
+    
+}
+
+
+/* .container{
+    min-height: calc(100vh - 8vh - 5vh);
+} */
+
+
+
+.html-css-js{
+    height: 36vh;
+    width: 80vw;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+.ui-course-in-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.Ui-course{
+    transform: translate(20px, 20px);
+}
+
+.html-video{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.title-html{
+    margin-left: 5vw;
+}
+
+
+
+
+
+
+.get-upto{
+    height: 5vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+
+.back{
+    height: 78vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+.iphone14{
+    padding-top: 10vh;
+    font-size:xx-large;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.pro{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hearn-buy{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+#buy{
+    font-size: 21px;
+    color: #2997ff;
+}
+
+.buy{
+    margin-left: 3vw;
+    text-decoration: none;
+}
+
+.iphone-pic{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+
+.white1{
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+}
+
+.iphone14-1{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.movoe-img{
+    background-image: url("Screenshot\ \(150\).png");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.apple-at-work{
+    color: white;
+    /* margin: 600px; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* .black{
+    background-color: black;
+    height: 700px;
+    background-blend-mode: overlay;
+} */
+
+#apple-at-work{
+    padding-top: 450px;
+    cursor: pointer;
+}
+
+.swiped{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+#swiped{
+    font-size: 15vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.best{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#best{
+    cursor: pointer;
+}
+
+#buy1{
+    font-size: 21px;
+    color: white;
+}
+
+.mob-lap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mob{
+    height: 80vh;
+    width: 48%;
+    background-color:white ;
+}
+
+.it-eassy{
+    display: flex;
+    /* height: 5vh;
+    width: 25vw; */
+    justify-content: center;
+    padding-top: 70px;
+    cursor: pointer;
+}
+
+.chirag{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#chirag{
+    font-weight: 300;
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+.lap{
+    height: 80vh;
+    width: 48%;
+    background-color:rgb(245, 241, 241) ;
+}
+
+.chirag1{
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+
+.hearn-buy1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.lap1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 350px;
+    cursor: pointer;
+}
+
+
+.watch-ipad{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.watch{
+    height: 80vh;
+    width: 48%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.health{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.hearn-buy2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.ipad{
+    height: 80vh;
+    width: 48%;
+    background-color: rgb(219, 215, 215);
+    cursor: pointer;
+}
+
+.save-on{
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+}
+
+.plus-get{
+    display: flex;
+    justify-content: center;
+}
+
+#plus-get{
+    font-weight: 300;
+}
+
+.shop-now{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#shop-now{
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.mac{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 350px;
+}
+
+
+
+.arcade-airpodsPro{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.arcade{
+    height: 80vh;
+    width: 48%;
+    background-color: black;
+}
+
+.ipad-pro{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#f-ipad{
+    height: 350px;
+}
+
+.logo-arcade{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+#app-logo{
+    margin-top: 5px;
+}
+
+.play-hello{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#m2{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+#play-hello{
+    font-weight: 150;
+    color: white;
+}
+
+#buy-2{
+    font-size: 21px;
+    color: black;
+}
+
+.airpodsPro{
+    height: 80vh;
+    width: 48%;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.airpod-pro{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    color: white;
+}
+
+.rebuilt{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#rebuilt{
+    color: white;
+    font-weight: 150;
+}
+
+.airpods-img{
+    margin-top: 10px;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#airpod-img{
+    height: 80vh;
+}
+
+.all-foot{
+    background-color: #f5f5f7;
+}
+
+.para{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.para1{
+    height: 20vh;
+    width: 60vw;
+    line-height: 20px;
+    margin-top: 20px;
+    color: #6e6e73;
+    font-size: 14px;
+}
+
+.first-line1{
+    display: flex;
+    justify-content: center;
+}
+.first-line{
+    height: 15vh;
+    width: 60vw;
+    line-height: 20px;
+    color: #6e6e73;
+    font-size: 14px;
+}
+
+.hori{
+    display: flex;
+    justify-content: center;
+}
+#hori{
+    width: 65vw;
+}
+
+.all-list-inone{
+    display: flex;
+    justify-content: center;
+}
+.all-list{
+    height: 50vh;
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.first-list{
+    color: #6e6e73;
+}
+
+.sub-list1{
+    list-style: none;
+    font-size: 12px;
+}
+
+
+.sub-list2{
+    margin-top: 30px;
+}
+.manage{
+    color: #6e6e73;
+    font-size: 12px;
+    list-style: none;
+}
+
+.Entertainment{
+    margin-top: 30px;
+}
+
+
+.more-way{
+    display: flex;
+    justify-content: center;
+}
+
+#more-way{
+    font-size: 12px;
+    color: #6e6e73;
+}
+
+
+footer{
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    color: #6e6e73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.last-footer{
+    display: flex;
+}
+
+
+
+
+
+
+/* // login page */
+
+
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    background-color: black;
+    padding-bottom: 5vh;
+
+}
+
+
+#iphone-14-border{
+    border: 2px solid black;
+    width: 31vw;
+    height: 85vh;
+    background-size: cover;
+    background-color:white;
+}
+.login1{
+    padding-top: 13vh;
+    margin-left: 12vw;
+}
+
+.email-pass{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+    margin-top: 10vh;
+}
+
+.pass{
+    margin-top: 20px;  
+}
+
+#email{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 6vw;
+    padding-left: 1vw;
+    border-radius: 5px;
+}
+#password{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 6vw;
+    padding-left: 1vw;
+    border-radius: 5px;
+}
+
+.c-box-forgot{
+    display: flex;
+}
+
+.c-box{
+    margin-left: 7vw;
+    margin-top: 3vh;
+}
+
+.forgot{
+    margin-top: 3vh;
+    margin-left: 2vw;
+    text-decoration: none;
+}
+
+.sign-in{
+    margin-left: 7.3vw;
+    margin-top: 5vh;
+}
+
+#sign-in{
+    padding: 1vh 7vw;
+    background-color: #3b71ca;
+    color: white;
+    border-radius: 5px;
+}
